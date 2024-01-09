@@ -154,6 +154,7 @@
   line-height: 56px; /* 175% */
   text-transform: capitalize;
 }
+
 .third_section {
   background: linear-gradient(
     180deg,
@@ -271,7 +272,7 @@ a {
   text-transform: capitalize;
 }
 /* img */
-.picture{
+.picture {
   margin-left: 110px;
   margin-right: 70px;
 }
