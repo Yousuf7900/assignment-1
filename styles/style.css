@@ -115,6 +115,7 @@
 }
 .join_now {
   color: #fff;
+
   text-align: center;
   font-family: Inter;
   font-size: 20px;
@@ -219,4 +220,98 @@ body {
 a {
   color: white;
   text-decoration: none;
+}
+.unsub {
+  margin-left: 100px;
+}
+
+/* subs_bg */
+.mail {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+.subs_bg {
+  width: 1320px;
+  height: 616px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Merriweather", serif;
+  width: 1320px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 140px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+}
+.input_mail {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.sub_border {
+  width: 210px;
+  height: 72px;
+  flex-shrink: 0;
+  background: #f00;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+/* img */
+.title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.para1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.para3 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.image-item {
+  width: calc(
+    16.6667% - 20px
+  ); /* 100% / 6 - gutter (adjust gutter as needed) */
+  margin-bottom: 20px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: Add rounded corners */
 }
