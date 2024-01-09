@@ -1,0 +1,23 @@
+/* first div */
+.bg-img {
+  background-image: url("../images/Banner\ Image.png");
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+
+  color: #fff;
+
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 140px;
+  border-radius: 16px;
+
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 177px;
+}
