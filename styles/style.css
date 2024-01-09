@@ -1,23 +1,28 @@
-/* first div */
-.bg-img {
-  background-image: url("../images/Banner\ Image.png");
-  width: 1320px;
-  height: 600px;
-  flex-shrink: 0;
-  background-repeat: no-repeat;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png") center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Merriweather', serif;
+}
 
-  color: #fff;
-
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 140px;
-  border-radius: 16px;
-
+.content {
   text-align: center;
-  font-family: Merriweather;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-top: 177px;
+}
+
+.happy-new-year {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.party-celebration {
+  font-size: 24px;
+  font-family: 'Merriweather', serif;
 }
