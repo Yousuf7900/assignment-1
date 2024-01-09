@@ -1,7 +1,4 @@
 .first_section {
-  margin: 0;
-  padding: 0;
-  /* height: 100vh; */
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Banner\ Image.png") center/cover;
   display: flex;
@@ -28,7 +25,7 @@
   text-align: center;
   font-size: 32px;
   margin-top: 177px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -44,6 +41,182 @@
   font-weight: 900;
   line-height: 95px; /* 131.944% */
   font-family: "Merriweather", serif;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 300px;
+  margin-left: 50px;
+}
+
+/* second section */
+.OFF {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: normal; */
+  margin-bottom: 0px;
+}
+.holiday {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 0px;
+  /* line-height: normal; */
+}
+/* category */
+.category {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.NYIMG {
+  margin-left: 350px;
+  margin-right: 10px;
+}
+
+/* second background */
+.second_bg {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png") center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Merriweather", serif;
+  width: 1320px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 140px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+}
+
+.welcome_txt {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  margin-left: 0px;
+  margin-right: 422px;
+  margin-bottom: 65px;
+}
+.join_now {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 910px;
+  margin-bottom: 25px;
+}
+.party_txt {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-top: 0px;
+  margin-right: 255px;
+}
+.time_table {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.red {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+.third_section {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Merriweather", serif;
+  width: 1320px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 140px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+}
+.joinbtn {
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #f00;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* footer_bg */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer_bg {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  max-width: 40%;
+}
+
+.right-content {
+  max-width: 40%;
+  text-align: right;
+}
+
+/* Style the links if needed */
+a {
+  color: white;
+  text-decoration: none;
 }
