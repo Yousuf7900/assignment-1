@@ -1,14 +1,22 @@
-body {
+.first_section {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png") center/cover;
+  /* height: 100vh; */
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner\ Image.png") center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
+  width: 1320px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 140px;
+  margin-bottom: 0px;
+  border-radius: 16px;
 }
 
 .content {
@@ -16,13 +24,26 @@ body {
 }
 
 .happy-new-year {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  font-family: 'Merriweather', serif;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 177px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Merriweather", serif;
 }
 
 .party-celebration {
-  font-size: 24px;
-  font-family: 'Merriweather', serif;
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
+  font-family: "Merriweather", serif;
+  margin-top: 0px;
+  margin-bottom: 300px;
 }
